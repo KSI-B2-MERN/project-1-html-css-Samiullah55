@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h6{
+    margin-left: 1rem;
+}
+ul{
+    margin-right: 1rem;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.5rem;
+    background-color: rgb(186, 29, 29);
+    color: #fff;
+    font-size: 32px;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+}
+
+.nav-item a{
+    color:#fff;
+}
+.nav-item a:hover{
+    color:#d7afaf;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+}
+.mainsection{
+    min-height: 87vh;
+    background-color: black;
+}
+.intro{
+    min-height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro h1{
+    color: #dacaca;
+    font-size: 48px;
+}
+.intro h6{
+    color: red;
+    font-size: 32px;
+}
+.projectsSection{
+    background-color: rgb(116, 163, 179);
+}
+.projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.projectsSection h1{
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 2;
+}
+.card-body a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.workmainsection{
+    background-color: rgb(24, 23, 23);
+}
+.worksect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 7rem;
+}
+.worksect h1{
+    font-size: 50px;
+}
+.worksect p{
+    font-size: 24px;
+}
+.logo{
+    height: 30px;
+    min-width: 20px;
+    border-radius: 100%;
+}
+.workmainsection{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    border-bottom:5px solid red;
+    padding: 2rem;
+}
+.quicklinks{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.quicklinks a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background-color: rgb(24, 23, 23);
+    padding: 1rem;
+    color: #fff;
+}
